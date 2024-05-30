@@ -55,7 +55,7 @@ export default function KeranjangPageSecond({navigation}) {
                     </View>
 
                     <View>
-                    <TouchableNativeFeedback>
+                    <TouchableNativeFeedback onPress={() => navigation.navigate('TambahAlamat')}>
                             <View>
                                 <Image source={require('../../assets/tombolkembalikanan.png')} style={{
                                     width:9,

@@ -22,7 +22,6 @@ export default function Home({ navigation, route }) {
   return (
 
    <View style={{flex:1,  backgroundColor:"white", }}>
-    <ScrollView style={{padding:0}}>
 
     <ImageBackground source={require('../../assets/bgtopheader.png')} style={{padding:10}}>
           {/* Kodingan search */}
@@ -48,6 +47,7 @@ export default function Home({ navigation, route }) {
             </View>
           </View>
         </ImageBackground>
+    <ScrollView style={{padding:0}}>
 
   
     {/* BAGIAN SLIDER */}

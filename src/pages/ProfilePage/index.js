@@ -19,7 +19,7 @@ export default function ProfilePage({navigation}) {
   return (
    
     <View style={{flex:1,  backgroundColor:"white", }}>
-    <ScrollView style={{padding:0}}>
+    <ScrollView style={{padding:0}} scrollEnabled={false}>
 
     <ImageBackground source={require('../../assets/bgtopheader.png')} style={{padding:10,
         width:360, height: 97,  flexDirection:"row"
@@ -37,7 +37,7 @@ export default function ProfilePage({navigation}) {
 
 
         <View style={{justifyContent:"center", top:5, marginLeft:10}}>
-          <Text style={{fontFamily:fonts.primary[600], fontSize:15}}>Keterangan Profil</Text>
+          <Text style={{fontFamily:fonts.primary[600], fontSize:15}}>Profil</Text>
         </View>
         </ImageBackground>
 

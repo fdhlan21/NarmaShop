@@ -564,7 +564,7 @@ export default function SembakoPageSecond({ navigation, route }) {
             {/* 4 */}
             <TouchableNativeFeedback onPress={() => navigation.navigate('ProfilePage')}> 
           <View style={{padding:10,}}>
-          <Image source={require('../../assets/home-outline.png')}  style={{ width: MyDimensi / 3, height: MyDimensi / 3 }}/>
+          <Image source={require('../../assets/profile-outline.png')}  style={{ width: MyDimensi / 3, height: MyDimensi / 3 }}/>
           </View>
         </TouchableNativeFeedback>
       </View>
